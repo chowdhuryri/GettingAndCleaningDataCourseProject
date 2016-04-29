@@ -1,8 +1,8 @@
-Getting and Cleaning Data Course Project Assignment
+#Getting and Cleaning Data Course Project Assignment
 
-run_analysis.R
+**run_analysis.R**
 
-The R script (run_analysis.R) performed following tasks:
+The R script (**run_analysis.R**) performed following tasks:
 
 1. Codes in lines 14-18 download the needed data from the website to the local 
    directory and unzip the file.
@@ -11,12 +11,13 @@ The R script (run_analysis.R) performed following tasks:
    
 2. Lines 29-34 read all the train, test data for outcome and features and merges
    as a single data file named **merged_data**.
-   The first column (sampleType) in *merged_data* file is a derived variable to 
+   The first column (sampleType) in **merged_data** file is a derived variable to 
    identify the training (1) and test samples (2).
    Line 38 converts sampleType as factor with lables "Train" and "Test".
+   
    system.time produce following out to produce *merged_data*:
-      user  system elapsed 
-      13.06    0.28   13.40
+     * user  system elapsed 
+     * 13.06    0.28   13.40
    
 3. Line 43 reads all the features name from *features.txt* file.
    Line 47 identifies the columns number for the measurements on the mean and 
@@ -38,6 +39,7 @@ The R script (run_analysis.R) performed following tasks:
    
    table(merged_data$sampleType)
    
-   Train  Test 
-   7352  2947 
+   *Train  Test 
+   *7352  2947 
+   
 
