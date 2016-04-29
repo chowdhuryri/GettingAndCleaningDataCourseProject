@@ -10,19 +10,21 @@ output: html_document
 
 * sampleType - is a derived factor to identify the samples from training and test data set. Labels are: 
 
- 1. Train 
- 2. Test
+   Train (1)
+   Test (2)
+   
 * subjectId  - is the  ID for each study subject
+
 * activityType  - is the outcome variable (y, i.e., activities performed by study subjects) in the data set with six labels (categories). The labels are: 
 
- 1. WALKING
- 2. WALKING_UPSTAIRS
- 3. WALKING_DOWNSTAIRS
- 4. SITTING
- 5. STANDING
- 6. LAYING
+   WALKING (1)
+   WALKING_UPSTAIRS (2)
+   WALKING_DOWNSTAIRS (3)
+   SITTING (4)
+   STANDING (5)
+   LAYING (6)
 
-## Following features (x: independent variables) are saved in merged_data_tidy. txt file
+## Following features (x: independent variables) are saved in merged_data_tidy. txt file. All the featurse are normalized and bounded between [-1,1].
 
 * tBodyAcc-mean()-X          
 * tBodyAcc-mean()-Y          

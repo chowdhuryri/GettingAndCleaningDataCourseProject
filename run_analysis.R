@@ -24,7 +24,7 @@ setwd("D:\\CoursERA\\C3W4")
  inread      <- read.table("./UCI HAR Dataset/train/X_train.txt",nrows=10)
  classes     <- sapply(inread,class)
  
-# Reading and meging tarin and test data set and adding sampleType column to identify "Train" and "Test" samples
+# Reading and meging tarin, test data sets and adding sampleType column to identify "Train" and "Test" samples
  
  merged_data <- cbind(rbind(cbind(sampleType=1,read.table("./UCI HAR Dataset/train/subject_train.txt",col.names="subjectId"),
                             read.table("./UCI HAR Dataset/train/y_train.txt",col.names="activityType")),
