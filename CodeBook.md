@@ -9,16 +9,18 @@ output: html_document
 ## Varaiable lists and descriptions stored in the **merged_data_tidy.txt** file
 
 * sampleType - is a derived factor to identify the samples from training and test data set. Labels are: 
- 1 = Train 
- 2 =  Test
+
+ 1. Train 
+ 2. Test
 * subjectId  - is the  ID for each study subject
 * activityType  - is the outcome variable (y, i.e., activities performed by study subjects) in the data set with six labels (categories). The labels are: 
- 1 =  WALKING
- 2 =  WALKING_UPSTAIRS
- 3 =  WALKING_DOWNSTAIRS
- 4 =  SITTING
- 5 =  STANDING
- 6 =  LAYING
+
+ 1. WALKING
+ 2. WALKING_UPSTAIRS
+ 3. WALKING_DOWNSTAIRS
+ 4. SITTING
+ 5. STANDING
+ 6. LAYING
 
 ## Following features (x: independent variables) are saved in merged_data_tidy. txt file
 

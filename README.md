@@ -39,7 +39,7 @@ The R script (**run_analysis.R**) performed following tasks:
    
    table(merged_data$sampleType)
    
-   *Train  Test 
-   *7352  2947 
+   * Train  Test 
+   * 7352  2947 
    
 
